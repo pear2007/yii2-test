@@ -1,0 +1,21 @@
+{
+    "name": "pear2007/yii2-test",
+    "description": "测试 ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "pear2007",
+            "email": "ncplum@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pear2007\\test\\": ""
+        }
+    }
+}
